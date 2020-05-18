@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/img1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 55px;
+}
+ul li {
+    display: inline-block;
+}
+ul li  a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li.active  a {
+    background-color: #fff;
+    color: #000000;
+}
+ul li a:hover {
+    background-color: #fff;
+    color: #000000;
+    text-decoration: none;
+}
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title h1 {
+    color: #fff;
+    font-size: 30px;
+}
+.button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover {
+    background-color: #fff;
+    color: #000000;
+}
+
+.WhatWeOffer {
+    width: 100%;
+    padding: 72px 0px 72px 0px;
+    float: left;
+    clear: both;
+    display: block;
+    background-color: rgba(210, 215, 233, 0.76);
+}
+.WhatWeOffer h2 {
+    font-size: 35px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: black;
+}
+.WhatWeOffer p {
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    line-height: 25px;
+    color: black;
+    font-size: 14px;
+}
+.WhatWeOffer span {
+    font-size: small;
+}
+.grid-holder span {
+    color: black;
+}
+.WhatWeOffer .col-md-3 {
+    width: 25%;
+    float: left;
+    margin-top: 60px;
+    margin-left: 80px;
+    text-align: center;
+}
+.WhoWeAre {
+    width: 100%;
+    padding: 72px 0px 72px 0px;
+    float: left;
+    clear: both;
+    display: block;
+    background-color: rgb(42, 42, 88);
+}
+
+.WhoWeAre h2 {
+    font-size: 35px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: wheat;
+}
+.WhoWeAre h3, span {
+    color: wheat;
+}
+.WhoWeAre p {
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    line-height: 25px;
+    color: wheat;
+    font-size: 14px;
+}
+.WhoWeAre .col-md-3 {
+    width: 25%;
+    float: left;
+    margin-top: 60px;
+    margin-left: 80px;
+    text-align: center;
+}
+.WhoWeAre img {
+    width: 250px;
+    height: 150px;
+}
+.WhoWeAre span {
+    font-size: small;
+}
+.WhoWeAre p {
+    width: 100%;
+}
+.parallax {
+    width: 100%;
+    padding: 10px 0px 90px 0px;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/img2.jpg);
+    float: left;
+    clear: both;
+    display: block;
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+}
+.parallax .main h2 {
+    font-size: 35px;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.parallax .main p {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+.parallax .main .col-md-1 {
+    width: 33.333%;
+    float: left;
+    color: #fff;
+    margin-top: 60px;
+}
+.parallax .main .text-box {
+    padding: 0px 0px 0px 60px;
+    display: block;
+    width: 83.33%;
+}
+.sc-mb {
+    background-color: rgb(42, 42, 88);
+    display: block;
+    float: left;
+    clear: both;
+    width: 100%;
+    padding-top: 80px;
+    width: 100%;
+    height: 550px;
+}
+.sc-mb .main .text-box {
+    float: left;
+    width: 40%;
+    margin-left: 60px;
+}
+.sc-mb .main .text-box h5 {
+    font-size: xx-large;
+    letter-spacing: 0.5px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.sc-mb .main .text-box h5, p {
+    color: wheat;
+}
+.sc-mb img {
+    float: left;
+    margin-left: 170px;
+    width: 33.333%;
+}
+.sc-mb .main h2 {
+    color: wheat;
+    font-size: medium;
+    font-style: italic;
+}
+
+.section-light {
+    width: 100%;
+    padding: 72px 0px 72px 0px;
+    float: left;
+    clear: both;
+    display: block;
+    background-color: rgba(210, 215, 233, 0.76);
+}
+
+.section-light h2 {
+    font-size: 35px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: black;
+}
+.section-light h3 {
+    color: black;
+}
+.section-light p {
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    line-height: 25px;
+    color: black;
+    font-size: 14px;
+}
+.section-light .col-md-3 {
+    float: left;
+    margin-top: 60px;
+    margin-left: 80px;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+}
+.WhoWeAre img {
+    width: 250px;
+    height: 150px;
+}
+.section-light span {
+    font-size: small;
+}
+.section-light p {
+    font-size: small;
+}
+.section-light .main .heading p {
+    width: 60%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        width: 100%;
+        height: 200px;
+    }
+    header .title {
+        position: absolute;
+        top: 15%;
+    }
+    header .title h1 {
+        font-size: medium;
+    }
+    header .button {
+        top: 25%;
+    }
+    .WhatWeOffer .col-md-3, .WhoWeAre .col-md-3 {
+        width: 90%;
+        margin-left: 10%;
+    }
+    .parallax {
+        height: 1400px;
+    }
+    .parallax .main .col-md-1{
+        width: 100%;
+    }
+    .parallax .main .heading p {
+        margin-top: 35px;
+        width: 70%;
+    }
+    .parallax .main .col-md-1 .icon svg {
+        margin-left: 40%;
+    }
+    .sc-mb .main .text-box {
+        width: 100%;
+    }
+    .sc-mb .main .text-box h5, p {
+        width: 80%;
+    }
+    .sc-mb .main .text-box {
+        width: 90%;
+    }
+    .sc-mb .main .text-box {
+        font-size: small;
+    }
+    .section-light .main .heading {
+        margin-left: 55px;
+    }
+    .section-light .main .col-md-3  {
+        width: 100%;
+        margin-left: 10px;
+    }
+}
